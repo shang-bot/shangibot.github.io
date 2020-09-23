@@ -2,356 +2,89 @@
 <html>
 <head>
 <style>
-table {
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
-th, td {
-  text-align: center;
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
   padding: 8px;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
 </style>
 </head>
 <body>
-  <table>
-    <tr>
-      <th></th>
-      <th></th>
-	  <td style="background-color:#000000;"><p style="color:white"><font size="3"> T </font></td> 
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-    <tr>
-      <th></th>
-	  <td style="background-color:#000000;"><p style="color:white"> U </td>
-      <th></th>
-      <td style="background-color:#000000;"><p style="color:white"> V </td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-    <tr>
-      <th></th>
-      <th></th>
-      <td style="background-color:#000000;"><p style="color:white"> W </td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-	    <tr>
-      <th></th>
-	  	  <td style="background-color:#000000;"><p style="color:white"> X </td>
-      <th></th>
-      	  <td style="background-color:#000000;"><p style="color:white"> Y </td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-	  <th></th>
-	  <th></th>
-      <td style="background-color:#000000;"><p style="color:white"> Z </td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-	<th></th>
-	  <th></th>
-      <th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>n = 7</th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-	<th></th>
-	  <th></th>
-      <th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>exp = 3</th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-	<th></th>
-	  <th></th>
-      <th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th><p>since = 2 <sup>3 </sup> 8 > 7	</p></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
-<th></th>
-      <th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>	
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-    </tr>
-	
-	<th></th>
-      <th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>a</th>      
-	  <th>b</th>
-	  <th>c</th>
-	  <th>T</th>
-	  <th>U</th>
-	  <th>V</th>
-	  <th>W</th>
-	  <th>X</th>
-	  <th>Y</th>
-	  <th>Z</th>
-    </tr>
-	
-	<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>0</th>
-      <th>0</th>
-	  <th>0</th>
-	  <th>0</th>
-	  <th>1</th>
-	  <th>1</th>
-	  <th>1</th>
-	  <th></th>
-	  <th>1</th>
-	  <th>1</td>
-	  <th>1</td>
-    </tr>
-	
-		<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>1</th>
-      <th>0</th>
-	  <th>0</th>
-	  <th>1</th>
-	  <th></th>
-	  <th></th>
-	  <th>1</th>
-	  <th></th>
-	  <th></th>
-	  <th>1</td>
-	  <th></td>
-    </tr>
-	
-		<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>2</th>
-      <th>0</th>
-	  <th>1</th>
-	  <th>0</th>
-	  <th>1</th>
-	  <th>0</th>
-	  <th>1</th>
-	  <th>1</th>
-	  <th>1</th>
-	  <th></td>
-	  <th>1</td>
-    </tr>
-		<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>3</th>
-      <th>0</th>
-	  <th>1</th>
-	  <th>1</th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-	  <th></td>
-    </tr>
-	
-	<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>4</th>
-      <th>1</th>
-	  <th>0</th>
-	  <th>0</th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-	  <th></td>
-    </tr>
-	
-	<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>5</th>
-      <th>1</th>
-	  <th>0</th>
-	  <th>1</th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-	  <th></td>
-    </tr>
-	<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>6</th>
-      <th>1</th>
-	  <th>1</th>
-	  <th>0</th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-	  <th></td>
-    </tr>
-	
-	<th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th>7</th>
-      <th>1</th>
-	  <th>1</th>
-	  <th>1</th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-	  <th></td>
-    </tr>
-	
-  </table>
-  </table>
-</div>
+
+<table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+
 </body>
 </html>
