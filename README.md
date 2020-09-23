@@ -1,3 +1,12 @@
+[cols="2"]
+|===
+|plain
+|plain
+|RED
+{set:cellbgcolor:red}
+|plain
+{set:cellbgcolor!}
+|===
 <!DOCTYPE html>
 <html>
 <head>
