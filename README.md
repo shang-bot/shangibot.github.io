@@ -181,24 +181,6 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></td>
     </tr>
-	<th></th>
-      <th></td>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></th>
-	  <th></td>
-    </tr>
 	
 	<th></th>
       <th></td>
