@@ -1,4 +1,4 @@
-                    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -28,10 +28,12 @@ tr:nth-child(even) {background-color: #f2f2f2;}
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
 	  <th></th>
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
     <tr>
       <th></th>
@@ -50,6 +52,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
     <tr>
       <th></th>
@@ -67,6 +70,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	    <tr>
       <th></th>
@@ -85,6 +89,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	  <th></th>
 	  <th></th>
@@ -102,6 +107,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	<th></th>
 	  <th></th>
@@ -119,6 +125,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	<th></th>
 	  <th></th>
@@ -136,6 +143,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	<th></th>
 	  <th></th>
@@ -153,6 +161,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 <th></th>
       <th></td>
@@ -161,8 +170,8 @@ tr:nth-child(even) {background-color: #f2f2f2;}
       <th></th>
       <th></th>
       <th></th>
+      <th></th>	
       <th></th>
-      <th></th>
 	  <th></th>
 	  <th></th>
 	  <th></th>
@@ -170,6 +179,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	<th></th>
       <th></td>
@@ -187,6 +197,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
     </tr>
 	
 	<th></th>
@@ -196,14 +207,166 @@ tr:nth-child(even) {background-color: #f2f2f2;}
       <th></th>
       <th></th>
       <th></th>
+      <th>a</th>      
+	  <th>b</th>
+	  <th>c</th>
+	  <th>T</th>
+	  <th>U</th>
+	  <th>V</th>
+	  <th>W</th>
+	  <th>X</th>
+	  <th>Y</th>
+	  <th>Z</th>
+    </tr>
+	
+	<th></td>
       <th></th>
       <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>0</th>
+      <th>0</th>
+	  <th>0</th>
+	  <th>0</th>
+	  <th>1</th>
+	  <th>1</th>
+	  <th>1</th>
+	  <th></th>
+	  <th>1</th>
+	  <th>1</td>
+	  <th>1</td>
+    </tr>
+	
+		<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>1</th>
+      <th>0</th>
+	  <th>0</th>
+	  <th>1</th>
+	  <th></th>
+	  <th></th>
+	  <th>1</th>
+	  <th></th>
+	  <th></th>
+	  <th>1</td>
+	  <th></td>
+    </tr>
+	
+		<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>2</th>
+      <th>0</th>
+	  <th>1</th>
+	  <th>0</th>
+	  <th>1</th>
+	  <th>0</th>
+	  <th>1</th>
+	  <th>1</th>
+	  <th>1</th>
+	  <th></td>
+	  <th>1</td>
+    </tr>
+		<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>3</th>
+      <th>0</th>
+	  <th>1</th>
+	  <th>1</th>
 	  <th></th>
 	  <th></th>
 	  <th></th>
 	  <th></th>
 	  <th></th>
+	  <th></td>
+	  <th></td>
+    </tr>
+	
+	<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>4</th>
+      <th>1</th>
+	  <th>0</th>
+	  <th>0</th>
 	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></td>
+	  <th></td>
+    </tr>
+	
+	<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>5</th>
+      <th>1</th>
+	  <th>0</th>
+	  <th>1</th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></td>
+	  <th></td>
+    </tr>
+	<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>6</th>
+      <th>1</th>
+	  <th>1</th>
+	  <th>0</th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></td>
+	  <th></td>
+    </tr>
+	
+	<th></td>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>7</th>
+      <th>1</th>
+	  <th>1</th>
+	  <th>1</th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></th>
+	  <th></td>
+	  <th></td>
     </tr>
 	
   </table>
