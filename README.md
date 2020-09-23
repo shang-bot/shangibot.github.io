@@ -1,12 +1,3 @@
-[cols="2"]
-|===
-|plain
-|plain
-|RED
-{set:cellbgcolor:red}
-|plain
-{set:cellbgcolor!}
-|===
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +18,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
     <tr>
       <th></th>
       <th></th>
-	  <td style="background-color:#000000;"><p style="color:white"><font size="3"> T </font></td> 
+	  <td style="background-color:#000000;"><p style="color:white"><font size="3"> T </font></td> #24292e, $bg-gray-dark
       <th></th>
       <th></th>
       <th></th>
