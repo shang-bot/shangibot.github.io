@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+             <!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -19,7 +19,6 @@ tr:nth-child(even) {background-color: #f2f2f2;}
       <th></th>
       <th></th>
 	  <td style="background-color:#000000;"><p style="color:white"><font size="3"> T </font></td> 
-      <th></th>
       <th></th>
       <th></th>
       <th></th>
